@@ -6,37 +6,79 @@ import hearts from '../images/hearts.jpeg';
 
 const Profiles = () => (
     
-    <section className="row no-gutters justify-content-center profiles">
+    <section 
+    className="
+    row no-gutters 
+    justify-content-center 
+    profiles"
+    >
 
-        <h4 className="col-12 text-center  bold upcase mt50 mb50 ">è adatto al mio profilo?</h4>
+        <h4 className="col-12 text-center  
+        bold upcase 
+        mt50 mb50 "
+        >
+        è adatto al mio profilo?
+        </h4>
 
         {/* block */}
 
-        <div className="col-10 col-sm-8 col-md-4 col-lg-3 card mb50 mt50 ">
+        <div 
+        className="
+        col-10 col-sm-8 
+        col-md-4 col-lg-3 
+        card mb50 mt50 "
+        >
 
-            <div className="row card-body zero justify-content-center">
+            <div 
+            className="
+            row card-body 
+            zero justify-content-center"
+            >
 
-                <div className="
-                background-card  mb15 col-12"
+                <div 
+                className="
+                background-card  
+                mb15 col-12"
                 style={{
                 background:`url(${blog}`, 
-                backgroundPosition: 'contain'}} 
+                backgroundPosition: 'contain'
+            }} 
                 >
                 </div>
 
-                <h5 className="col-12 text-center bold upcase mt15">Blogger</h5>
+                <h5 
+                className="
+                col-12 text-center 
+                bold upcase mt15"
+                >
+                Blogger
+                </h5>
 
-                <p className="col-10 text-center mt15 mb15">
+                <p 
+                className="
+                col-10 text-center 
+                mt15 mb15"
+                >
 
                     Vorresti aumentare il numero delle interazioni con gli altri utenti di Instagram , senza rinunciare alla naturalezza del tuo profilo?
-                    <span className="bold">InstaFlow</span> fa al caso tuo!
+                    <span 
+                    className="
+                    bold"
+                    >
+                    InstaFlow
+                    </span>
+                     fa al caso tuo!
 
                 </p>
 
                 <div className="w-100">
                 </div>
 
-                <button className="btn btn-outline-success mb15 mt15">
+                <button 
+                className="
+                btn btn-outline-success 
+                mb15 mt15"
+                >
                     Prova ora
                 </button>
             </div>
@@ -46,24 +88,59 @@ const Profiles = () => (
 
         {/* block2 */}
 
-        <div className="col-10 col-sm-8 col-md-4 col-lg-3 card mb50 mt50 ">
+        <div 
+        className="
+        col-10 col-sm-8 
+        col-md-4 col-lg-3 
+        card mb50 mt50 "
+        >
 
-        <div className="row card-body zero justify-content-center">
-            <div className="background-card  mb15 col-12" style={{background:`url(${influencer}`}} >
+        <div 
+        className="
+        row card-body zero 
+        justify-content-center"
+        >
+            <div 
+            className="
+            background-card  
+            mb15 col-12" 
+            style={{
+            background:`url(${influencer}`
+        }} 
+            >
             </div>
-            <h5 className="col-12 text-center bold upcase mt15">Influencer</h5>
+            <h5 
+            className="
+            col-12 text-center 
+            bold upcase mt15"
+            >
+            Influencer</h5>
 
-            <p className="col-10 text-center mt15 mb15">
+            <p 
+            className="
+            col-10 text-center 
+            mt15 mb15"
+            >
 
                 Vorresti aumentare il numero delle interazioni con gli altri utenti di Instagram , senza rinunciare alla naturalezza del tuo profilo?
-                <span className="bold">InstaFlow</span> fa al caso tuo!
+                <span 
+                className="
+                bold"
+                >
+                InstaFlow
+                </span> 
+                fa al caso tuo!
 
             </p>
 
             <div className="w-100">
             </div>
 
-            <button className="btn btn-outline-success mb15 mt15">
+            <button 
+            className="
+            btn btn-outline-success 
+            mb15 mt15"
+            >
                 Prova ora
             </button>
         </div>
@@ -74,26 +151,61 @@ const Profiles = () => (
 
         {/* block3 */}
 
-        <div className="col-10 col-sm-8 col-md-4 col-lg-3 card mb50 mt50 ">
+        <div 
+        className="
+        col-10 col-sm-8 
+        col-md-4 col-lg-3 
+        card mb50 mt50 "
+        >
 
-            <div className="row card-body zero justify-content-center">
+            <div 
+            className="
+            row card-body 
+            zero justify-content-center"
+            >
 
-                <div className="background-card  mb15 col-12" style={{background:`url(${brand}`}} >
+                <div 
+                className="
+                background-card  
+                mb15 col-12" 
+                style={{
+                background:`url(${brand}`
+                }}
+                 >
                 </div>
 
-                <h5 className="col-12 text-center bold upcase mt15">Brand</h5>
+                <h5 
+                className="
+                col-12 text-center 
+                bold upcase mt15"
+                >
+                Brand
+                </h5>
 
-                <p className="col-10 text-center mt15 mb15">
+                <p 
+                className="
+                col-10 text-center 
+                mt15 mb15"
+                >
 
                     Vorresti aumentare il numero delle interazioni con gli altri utenti di Instagram , senza rinunciare alla naturalezza del tuo profilo?
-                    <span className="bold">InstaFlow</span> fa al caso tuo!
+                    <span 
+                    className="
+                    bold"
+                    >
+                    InstaFlow
+                    </span> fa al caso tuo!
 
                 </p>
 
                 <div className="w-100">
                 </div>
 
-                <button className="btn btn-outline-success mb15 mt15">
+                <button 
+                className="
+                btn btn-outline-success 
+                mb15 mt15"
+                >
                     Prova ora
                 </button>
             </div>
